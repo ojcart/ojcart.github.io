@@ -1,0 +1,243 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/Technical.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Web Application Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Course Outline</a></li>
+        <li>
+          <a class="nav-link" href="#What_you_should_already_know"
+            >Client-Side vs. Server-Side Development</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#JavaScript_and_Java"
+            >Overview of Web Technologies</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Hello_world">Git</a></li>
+        <li><a class="nav-link" href="#Variables">HTML Elements</a></li>
+        <li>
+          <a class="nav-link" href="#Declaring_variables"
+            >Introduction to HTML, CSS and Javascript</a>
+        </li>
+        <li><a class="nav-link" href="#Variable_scope">Advanced Git Commands</a></li>
+        </li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Course Outline</header>
+        <article>
+          <p>
+            Web Application Development involves structuring the content in a logical and progressive manner, covering key concepts and skills necessary for developing web applications. This outline assumes a basic understanding of HTML, CSS, and JavaScript.
+          </p>
+
+
+          <ul>
+            <header>Introduction to Notion</header>
+            <li>
+              Notion can be used to structure team documentation, create company-wide database for documents and meeting notes, and link pages together. It allows for centralizing team documentsin one database for transparency, accessibility, and consistency. Standardizing documents and meeting notes across the company fosters transparancy and creates a scalable process.
+            </li>
+            <li>
+              Understanding Notion's Purpose and Capabilities: Notion is a powerful all-in-onee workspace that integrates note-taking, task management, and collaboration tools in a single platform. It serves as a centralized hub for teams and individuals to manage their projects, share knowledge, and streamline workflows. Notion's versatility allows it to be used for a wide range of purposes, from organizing personal tasks to coordinating complex team projects.
+            </li>
+            <li>
+              Notion's Role as an All-in One Workspace: Notion is designed to be a unified solution for various workrelated needs. It combines the functionalities of traditional note-taking apps, project management tools, knowledge bases, and wikis into a single, cohesive interface. This consolidation of features eliminates the need for using multiple separate applications, providing a seamless experience for organizing, sharing, and collaborating on information and tasks.
+            </li>
+
+            <li>
+              Notion's VAlue for Team Collaboration and Project Management: For teams, Notion offers a collaborative environment where members can work together on documents, databases, and projects in real time. It enables teams to create custom workflows, manage tasks, and share knowledge effectively. Notion's flexibility allows it to adapt to different team structures and project requirements, making it a valuable asset for project managers, designers, developers, marketers, and other professionals.
+            </li>
+          </ul>
+
+        </article>
+      </section>
+      <section class="main-section" id="What_you_should_already_know">
+        <header>Client-Side vs. Server-Side Development</header>
+        <article>
+          
+          <ul>
+            <h3>Client-Side Development</h3>
+            <li>
+              <b>Definition:</b> Client-side development refers to the activities that take place on the user's device and involve the user interface and user experience.
+            </li>
+
+            <li>
+              <b>Technologies:</b> HTML(Hypertext MarkUp Language), CSS(Cascading Style Sheet), Javascript, and various front-end frameworks and libraries like React, Angular, or Vue.js.</li>
+            <li>
+              <b>Advantage:</b> <br>Fastand responsive user interfaces. <br> Reduces server load as certain operations are performed on the client's side. <br>Enhance user experience with dynamic and interactive elements.
+            </li>
+            <h3>Server-Side Development</h3>
+            <li>
+              <b>Definition:</b>  Server-side development involves activities that occur on the web server, managing and processing data, handling requests, and performing various server-related operations.
+            </li>
+            <li>
+              <b>Technologies:</b> Server-side languages such as PHP, Python (Django), Ruby (Ruby on Rails), Java (Spring), and JavaScript (Node.js).
+            </li>
+            <li>
+              <b>Advantages</b> <br>Enhanced security as sensitive operations are performed on the server. <br>centralized control over data and business logic. <br>Better scalability for handling a large number of users.
+            </li>
+            <h3>Interaction Between Client-Side and Server-Side</h3>
+            <li><b>Communication:</b> Both sides communicate through protocols like HTTP(S), and they exchange data using formats like JSON or XML.</li>
+            <li><b>Workflow:</b> A typical web application involves the client making requests to the server, and the server responds with the necessary data or performs actions.</li>
+            <h3>Full-Stack Development</h3>
+            <li><b>Definition:</b> Developers who work on both client-side and server-side aspects are known as full-stack developers.</li>
+            <li><b>Responsibilities:</b> Full-stack developers have a broader skill set and can handle tasks ranging from designing user interfaces to managing server infrastructure.</li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="JavaScript_and_Java">
+        <header>Overview of Web Technologies</header>
+        <article>
+
+
+          <h3>Internet Basics:</h3>
+          <li>Global network of interconnected computers</li>
+          <li>Enables communication, information sharing and collaboration.</li>
+          <h3>Evolution of the World Wide Web</h3>
+          <p>
+            <b>Historical Development:</b> Birth of the World Wide Web (WWW) by Tim Berners-Lee in 1989. <br> The birth of the Internet can be traced back to the late 1960s and early 1970s with the development of ARPANET (Advanced Research Projects Agency Network), a pioneering network that laid the groundwork for the interconnected global network we know today. Here are key milestones in the birth and early development of the Internet.
+            <br> <b>Arpanet Creation (1969):</b> ARPANET, the first packet-switching network, was developed by the United States Department of Defense's Advanced Research Projects Agency (ARPA, now DARPA). <br>On October 29, 1969, ARPANET's first message was sent between two computers at the University of California, Los Angeles (UCLA) and the Stanford Research Institute (SRI). The message was "LOGIN.
+            <b>Development of TCP/IP (1970s):</b> The Transmission Control Protocol (TCP) and Internet Protocol (IP) were developed by Vinton Cerf and Bob Kahn. <br> TCP/IP became the standardized communications protocol suite for ARPANET, forming the foundation for the entire Internet.
+            <h3>Key Internet Protocol</h3>
+            <li><b>HTTP (Hypertext Transfer Protocol):</b> <br>Foundation of data communication on the web. <br>Defines how messages are formatted and transmitted</li>
+            <li><b>HTTPS (Hypertext Transfer Protocol Secure):</b> <br>Secure version of HTTP using encryption (SSL/TLS). <br>Ensure secure data transfer, especially for sensitive information.</li>
+            <li><b>TCP/IP (Transmission Control Protocol/Internet Protocol):</b><br>Fundamental suite of protocols for internet communication. <br>Facilitates reliable data transmission between connected devices.</li>
+            <h3>Client-Server Architecture</h3>
+            <li><b>Roles:</b><br>Client request services or resources. <br>Servers provide requested services or resources.</li>
+            <li><b>Request-Response Cycle:</b><br>Client send request to servers. <br>Servers process requests and send back responses.</li>
+            <li><b>Statelessness:</b><br>Each request from a client to a server is independent. <br>No retention of client state between requests</li>
+            <h3>Internet Technologies</h3>
+            <li><b>HTML (Hypertext Markup Language):</b><br>Standard markup language for creating web pages. <br>Defines structure and layout using tags.</li>
+            <li><b>CSS (Cascading Style Sheets):</b><br>Style sheet language for describing the presentation of a document. <br>Enhances the visual presentation of HTML elements.</li>
+            <li><b>JavaScript:</b><br>Programming language that enables dynamic content on web pages. <br>Enhances interactivity and user experience</li>
+            <h3>Responsive Web Design</h3>
+            <li><b>Importance:</b><br>Ensures web applications work well on various devices and screen sizes. <br>Enhances user experience across desktops, tablets, and mobile devices.</li>
+            <li><b>Media Queries:</b><br>CSS technique for applying styles based on device characteristics. <br>CSS technique for applying styles based on device characteristics.</li>
+            <h3>Conclusion</h3>
+            <li><b>Key Takeaways:</b><br>The Internet is a global network connecting computers. <br>The World Wide Web facilitates information sharing and dynamic content. <br>Protocols like HTTP, HTTPS, and TCP/IP underpin internet communication. <br>Client-server architecture involves clients making requests and servers providing responses.</li>
+          </p>
+
+
+        </article>
+      </section>
+      <section class="main-section" id="Hello_world">
+        <header>Git</header>
+        <article>
+          <p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. <br><br> Git is easy to learn and has a tiny footprint with light fast performance. It outclasses SCM tools like Subversion, CSV, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.</p>
+        </article>
+
+      </section>
+      <section class="main-section" id="Variables">
+        <header>Html Elements</header>
+          <h3>Basic HTML</h3>
+          <img src="images/htnl.png">
+          <h3>Formatting</h3>
+          <img src="images/html2.png" alt="formating">
+          <h3>Forms and Input</h3>
+          <img src="images/html3.png" alt="form">
+          <h3>Frames</h3>
+          <img src="images/html4.png" alt="">
+          <h3>Images</h3>
+          <img src="images/html5.png" alt="">
+          <h3>Audio / Video</h3>
+          <img src="images/html6.png" alt="">
+          <h3>Links</h3>
+          <img src="images/html7.png" alt="">
+
+
+      </section>
+      <section class="main-section" id="Declaring_variables">
+        <header>Introduction to HTML, CSS and Javascript</header>
+        <article>
+          <h3>HTML (HyperText Markup Language):</h3>
+          <p>
+            HTML is the standard markp language used to create the structure and content of web pages.
+          </p>
+          <p>
+            HTML5 is the latest version of HTML, and it introduces new features and improvements over its predecessors.
+          </p>
+          <p>
+            It provides tags and attributes that define the various elements on a web page, such as headings, paragraphs, images, links, forms, and more.
+          </p>
+          <p>
+            HTML5 also includes new elements like header, nav, article, section, footer, which help in structuring the content more semantically.
+          </p>
+
+          <h3>CSS (Cascading Style Sheets):</h3>
+          <p>Css is used to style and layout the visual presentation of HTML documents.</p>
+          <p>It allows you to control the colors, fonts, spacing, and positioning of elements on a web page.</p>
+          <p>Css is applied either internally within an Html document, externally in separate stylesheet file, or inline within HTML tags.</p>
+
+          <h3>Javasscript</h3>
+          <p>JavaScript is a scripting language that enables dynamic and interactive behavior on web pages.</p>
+          <p>It can manipulate the content and structure of HTML, handle user input, and communicate with servers (Ajax).</p>
+          <p>JavaScript is commonly used to create features like sliders, form validation, pop-up messages, and more.</p>
+          <p>It can be included directly within HTML documents or linked externally.</p>
+        </article>
+      </section>
+      <section class="main-section" id="Variable_scope">
+        <header>Advance Git Commands</header>
+        <article>
+          <p>
+            <b>1. Add & Commit</b> <br>
+            You have have added and committed the files this way multiple times, but what if I tell you it can be done in one line with the `-am` flag?
+          </p>
+          <code>$ git add .
+            $ git commit -m "new project"</code>
+
+          <p>
+            Try this instead, and it will add the file changes and create the commit using the message.
+          </p>
+          <code>$ git commit -am "new project"
+
+            [master 17d7675] new project
+            4 files changed, 2 insertions(+), 1 deletion(-)</code>
+          <p>
+            <b>2. Amend</b> <br>You can rename your current commit message using the '--amend' flag and write the new message. This will help you with accidental messages. 
+          </p>
+
+          <code>$ git commit --amend -m "Love"
+
+            [master 7b7f891] Love
+            Date: Mon Jan 22 17:57:58 2024 +0500
+            4 files changed, 2 insertions(+), 1 deletion(-)</code
+          >
+          <p>You can include additional changes to the current commit before pushing it to the remote repository. To do so, you need to add the file changes and then commit using the `--amend` flag. To retain the previous commit message, simply use the `--no-edit` flag.</p>
+          <code>$ git add . 
+            $ git commit --amend --no-edit
+            
+            [master f425059] Love
+            Date: Mon Jan 22 17:57:58 2024 +0500
+            6 files changed, 2 insertions(+), 34 deletions(-)</code>
+          
+          <p><b>3. Revert</b> <br>To undo in Git, you can use the 'revert' command. However, this command does not remove any commits. Instead, it creates a new commit that undoes the changes made by the original commit. <br><br>We will use the 'log' with '--oneline' flag to view commit history in a shorter form.</p>
+          <code>f425059 (HEAD -> master, origin/master) Love
+            8f184d5 first commit</code>
+        </article>
+      </section>
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+          <ul>
+            <li>
+              All the documentation in this page is taken from
+              <a
+                href="https://primusr.notion.site/Web-Application-Development-c213cf6dbd834f6f8bcc2d02746209db?p=56cf3c3129034dc3a4d138a31297c3b7&pm=s"
+                target="_blank"
+                >Primusr</a
+              >
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
